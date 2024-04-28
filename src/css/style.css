@@ -1,0 +1,62 @@
+body {
+    background-color: hsl(218, 23%, 16%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: "Manrope", sans-serif;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: hsl(217, 19%, 24%);
+    color: hsl(193, 38%, 86%);
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+    width: 340px;
+    height: 200px;
+}
+
+.titulo {
+    color: hsl(150, 100%, 66%);
+    margin-top: 1px;
+    font-size: 8px;
+}
+
+nav{
+    margin-top: 20px ;
+}
+
+#separador-desktop{
+    display: block;
+    margin-top: 20px;
+    width: 300px;
+}
+
+#separador-mobile{
+    display: none;
+  }
+
+.circulo-verde{
+    background-color:hsl(150, 100%, 66%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    height: 16px;
+    width: 10px;
+    border-radius: 50px;
+    margin: 10px auto;
+    margin-top: 28px;
+}
+
+#dado{
+    width: 14px;
+}
